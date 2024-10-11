@@ -26,36 +26,3 @@ def caesar(original_text, shift_amount, encode_or_decode):
     print(f"Here is the {encode_or_decode}d text: {decipher_text}")
 
 caesar(original_text=text, shift_amount=shift, encode_or_decode=direction)
-
-
-
-
-
-
-
-
-
-
-# def caesar(original_text, shift_amount):
-#     if direction == "encode":
-#         # def encrypt(original_text, shift_amount):
-#             cipher_text = ""
-#             for letter in original_text:
-#                 shifted_position = alphabet.index(letter) + shift_amount
-#                 shifted_position %= len(alphabet)
-#                 cipher_text += alphabet[shifted_position]
-#             print(f"Here is the encoded result: {cipher_text}")
-#     else:
-#         if direction == "decode":
-#             # def decrypt(original_text, shift_amount):
-#                 decipher_text = ""
-#                 for letter in original_text:
-#                     unshifted_position = alphabet.index(letter) - shift_amount
-#                     unshifted_position %= len(alphabet)
-#                     decipher_text += alphabet[unshifted_position]
-#                 print(f"Here is the decoded text: {decipher_text}")
-#
-
-# encrypt(original_text=text, shift_amount=shift)
-
-
