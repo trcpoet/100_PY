@@ -50,6 +50,3 @@ def game():
 game()
 
 #Repeat the guessing functionality if they get it wrong
-
-
-# right_choice = correct number from list of random numbers, random number is randomly chosen by computer
