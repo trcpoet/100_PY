@@ -43,12 +43,13 @@ while game_should_continue:
     #clear the screen
     print("\n"*20)
     print(logo)
+
     ##Get follower count of each account
     a_follower_count = account_a["follower_count"]
     b_follower_count = account_b["follower_count"]
     is_correct = check_answer(guess, a_follower_count, b_follower_count)
 
-    #Give user feedback on their guess
+    #Give user on their guess
     #Score keeping
     if is_correct:
         score += 1
@@ -59,65 +60,3 @@ while game_should_continue:
 
 
 #Make the game repeatable and
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# name = data.get("name")
-# followers = data.get("follower_count")
-# description = data.get("description")
-# country = data.get("country")
-
-# name = data["name"]
-# followers = data["follower_count"]
-# description = data["description"]
-# country = data["country"]
-
-# def compare():
-#     for dict in data:
-#         for key, value in dict.items():
-#             print(key, ":", value)
-#         print("")
-#
-#
-# compare()
-#
-# def func(dict):
-#     return dict["name"]
-# def func2(dict):
-#     return dict["follower_count"]
-# def func3(dict):
-#     return dict["description"]
-# def func4(dict):
-#     return dict["country"]
-#
-# name = list(map(func, data))
-# followers = list(map(func2, data))
-# description = list(map(func3, data))
-# country = list(map(func4, data))
-#
-# print("Compare A:", name, followers, description, country)
